@@ -26,5 +26,7 @@ let mysprite = [
 	["#000", "#000", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#FFF", "#000", "#000"]
 ]
 
-Graphic.sprite(0,0, mysprite, "THE SPRITE");
-console.log(Graphic.screen.toString())
+Graphic.sprite(0, 0, mysprite, "THE SPRITE");
+console.log(Graphic.cscreen.toString());
+console.log(Graphic.screen.toString());
+//Graphic.reloadscreen();
